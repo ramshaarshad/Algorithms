@@ -13,7 +13,7 @@ def edit_distance(str1, str2, l1, l2):
     '''
     if l1 == 0:  # If str1 is empty, you can only insert all characters from str2
         return l2
-    if l2 == 0:  # If str2 if empty, you can only insert all characters from str1
+    if l2 == 0:  # If str2 is empty, you can only insert all characters from str1
         return l1
 
     if str1[l1-1] == str2[l2-1]:    # If the last two characters are the same, you can just move forward
